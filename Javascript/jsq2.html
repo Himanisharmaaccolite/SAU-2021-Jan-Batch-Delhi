@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Question2</title>
+
+</head>
+<body>
+<div id="1">1</div>
+<div id="2">2</div>
+<div id="3">3</div>
+<div id="4">4</div>
+<div id="5">5</div>
+<div id="6">6</div>
+<div id="7">7</div>
+<div id="8">8</div>
+<div id="9">9</div>
+<div id="10">10</div>
+<div id="11">11</div>
+<div id="12">12</div>
+<div id="13">13</div>
+<div id="14">14</div>
+<div id="15">15</div>
+<div id="16">16</div>
+<div id="17">17</div>
+<div id="18">18</div>
+<div id="19">19</div>
+<div id="20">20</div>
+<button type="button" onclick="highlighteven()"> Highlight Even</button>
+<button type="button" onclick="highlightmultipleof5()">Highlight multiple of 5</button> 
+<button type="reset" onclick="reset()">Reset</button>  
+</body>
+<script type="text/javascript">
+	arr=[]
+	for(let i=1;i<=20;i++)
+	{
+		var tag=document.getElementById(i);
+		arr.push(tag);
+	}
+	function highlighteven()
+	{
+		for(let i=1;i<=arr.length;i++)
+		{
+			document.getElementById(i).style.background="white";
+		}
+		for(let i=1;i<=arr.length;i++)
+		{
+			const val=document.getElementById(i).innerText;
+			if(parseInt(val)%2==0)
+			{
+				document.getElementById(i).style.background="beige";
+			}
+		}
+	}
+	function highlightmultipleof5()
+	{
+		for(let i=1;i<=arr.length;i++)
+		{
+			document.getElementById(i).style.background="white";
+		}
+		for(let i=1;i<=arr.length;i++)
+		{
+			const val=document.getElementById(i).innerText;
+			if(parseInt(val)%5==0)
+			{
+				document.getElementById(i).style.background="grey";
+			}
+		}
+	}
+	function reset()
+	{
+		for(let i=1;i<=arr.length;i++)
+		{
+		
+			document.getElementById(i).style.background="white";
+		}
+	}
+	
+	
+</script>
+</html>
