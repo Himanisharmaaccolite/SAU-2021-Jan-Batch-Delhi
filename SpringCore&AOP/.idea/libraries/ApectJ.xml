@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ApectJ">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/springAOP/ApectJ/aspectjrt-1.9.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/springAOP/ApectJ/aspectj-weaver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/springAOP/ApectJ/aopalliance-.jar!/" />
+      <root url="jar://$PROJECT_DIR$/springAOP/ApectJ/cglib-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/springAOP/ApectJ/asm-all-3.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

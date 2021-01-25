@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringDIObjectsCollections/SpringDIObjectsCollections.iml" filepath="$PROJECT_DIR$/SpringDIObjectsCollections/SpringDIObjectsCollections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDISettersConstructors/SpringDISettersConstructors.iml" filepath="$PROJECT_DIR$/SpringDISettersConstructors/SpringDISettersConstructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringFrameWork.iml" filepath="$PROJECT_DIR$/.idea/SpringFrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringJavaCode/SpringJavaCode.iml" filepath="$PROJECT_DIR$/SpringJavaCode/SpringJavaCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringLifeCycleCallbacks/SpringLifeCycleCallbacks.iml" filepath="$PROJECT_DIR$/SpringLifeCycleCallbacks/SpringLifeCycleCallbacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springAOP/springAOP.iml" filepath="$PROJECT_DIR$/springAOP/springAOP.iml" />
+    </modules>
+  </component>
+</project>

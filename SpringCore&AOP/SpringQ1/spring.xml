@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="StudentBean" class="com.au.spring.Student">
+    <property name="person">
+        <map>
+            <entry key="PointA" value-ref="PointA"/>
+            <entry key="PointB" value-ref="PointB"/>
+            <entry key="PointC" value-ref="PointC"/>
+
+        </map>
+    </property>
+</bean>
+
+<bean id="PointA" class="com.au.spring.Person">
+    <property name="name" value="himani"/>
+    <property name="address" value="Delhi"/>
+    <property name="age" value="24"/>
+</bean>
+
+<bean id="PointB" class="com.au.spring.Person">
+    <property name="name" value="shivani"/>
+    <property name="address" value="Gurugram"/>
+    <property name="age" value="20"/>
+</bean>
+
+    <bean id="PointC" class="com.au.spring.Person">
+        <property name="name" value="Jatin kumar"/>
+        <property name="address" value="CP"/>
+        <property name="age" value="16"/>
+    </bean>
+
+</beans>
